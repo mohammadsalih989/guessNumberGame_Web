@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="resources/css/main.css" />
+
+    <title>Guess Number Game</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="btn again">Again!</a>
+
+      <h2 class="trys">
+        <p class="trysamount">< between 1 and 20 ></p>
+      </h2>
+    </header>
+
+    <div class="title">
+      <h1 class="gameName">Guess my number!</h1>
+    </div>
+
+    <div class="winAndLose">
+      <h1 class="winAndLoseText">?</h1>
+    </div>
+
+    <main class="main">
+      <div class="main__input">
+        <form>
+          <input type="number" name="theInput" class="theInput" id="theGuess" />
+
+          <input type="submit" class="btn_2 check" value="Check!" />
+        </form>
+      </div>
+
+      <div class="main__testResult">
+        <h3 class="messige">Start guessing</h3>
+
+        <h3 class="score">💯 score: 15</h3>
+
+        <h3 class="highscore">🥇HighScore: 18</h3>
+      </div>
+    </main>
+
+    <script src="resources/js/main.js"></script>
+  </body>
+</html>

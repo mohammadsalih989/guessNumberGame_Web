@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Press Start 2P", cursive !important;
+  font-weight: 400;
+  line-height: 1.7;
+  text-transform: capitalize;
+  color: #333;
+}
+
+.btn {
+  text-decoration: none;
+  background: #fff;
+  display: inline-block;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: #222;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  transform: translateY(-6%);
+}
+
+.btn:active {
+  transform: translateY(-3%);
+}
+
+.btn_2 {
+  padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+  background: #fff !important;
+  color: #222 !important;
+  text-align: center;
+  font-size: 2rem;
+  transition: all 0.4s;
+}
+
+.btn_2:hover {
+  transform: translateY(-6%);
+}
+
+.btn_2:active {
+  transform: translateY(-3%);
+}
+
+.btn_3 {
+  padding: 0.25rem 1rem;
+  display: inline-block;
+  text-decoration: none;
+  background: #fff;
+  color: #222;
+  transition: all 0.4s;
+}
+
+.btn_3:hover {
+  transform: translateY(-6%);
+}
+
+.btn_3:active {
+  transform: translateY(-3%);
+}
+
+body {
+  background-color: #222;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 2rem;
+}
+
+body .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+body .header .trys {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+body .header .trys .trysamount {
+  display: inline-block;
+}
+
+body .title {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+body .title .gameName {
+  font-size: 3rem;
+  color: #fff;
+}
+
+body .winAndLose {
+  text-align: center;
+}
+
+body .winAndLose .winAndLoseText {
+  padding: 2rem;
+  font-size: 3rem;
+  background: #fff;
+  color: #222;
+}
+
+body .main {
+  margin: 4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body .main__input {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body .main__input input {
+  font-size: 2rem;
+  font-family: "Press Start 2P", cursive !important;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: transparent;
+  border: 0.5rem solid #fff;
+  color: #fff;
+}
+
+body .main__testResult {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+body .main__testResult h3 {
+  padding-bottom: 2rem;
+  display: block;
+  color: #fff;
+}
+
+@media screen and (max-width: 60rem) {
+  body .header {
+    margin-bottom: 5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .title {
+    margin-bottom: 3rem;
+  }
+  body .title .gameName {
+    font-size: 2rem;
+  }
+  body .trys {
+    font-size: 1.5rem;
+  }
+  body .trys .btn_3 {
+    padding: 0.25rem 0.25rem;
+  }
+  body .main {
+    flex-direction: column;
+  }
+  body .main__input {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  body .main__input input {
+    font-size: 1.5rem;
+  }
+  body .main__testResult {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  body .main__testResult h3 {
+    padding-bottom: 0.5rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

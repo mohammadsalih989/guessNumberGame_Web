@@ -1,0 +1,41 @@
+.btn {
+  text-decoration: none;
+  background: #fff;
+  display: inline-block;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: #222;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+
+  transition: all 0.4s;
+
+  &:hover {
+    transform: translateY(-6%);
+  }
+  &:active {
+    transform: translateY(-3%);
+  }
+}
+
+.btn_2 {
+  padding: 1rem 2rem;
+
+  display: block;
+  width: 100%;
+
+  background: #fff !important;
+  color: #222 !important;
+
+  text-align: center;
+  font-size: 2rem;
+
+  transition: all 0.4s;
+
+  &:hover {
+    transform: translateY(-6%);
+  }
+  &:active {
+    transform: translateY(-3%);
+  }
+}
